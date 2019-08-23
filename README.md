@@ -43,7 +43,7 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 
 单机后，复制下面的文本到本地
 
-![afec8c01385a987258927d1f287fbf6a.png](:/a15cfe1e8e8342d5a797550c0b0fc2de)
+![afec8c01385a987258927d1f287fbf6a.png](:/a15cfe1e8e8342d5a797550c0b0fc2de.png)
 
 
 
