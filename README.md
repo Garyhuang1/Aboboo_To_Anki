@@ -38,7 +38,7 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 
 
 
-![13565d529eda0934d73e725b82796404.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/2369cf7c9f86462b99a3f45ccf433350)
+![13565d529eda0934d73e725b82796404.png](https://github.com/PaperJetJia/Aboboo_To_Anki/tree/master/_resources/2369cf7c9f86462b99a3f45ccf433350)
 
 
 单机后，复制下面的文本到本地
