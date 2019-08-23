@@ -43,7 +43,7 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 
 单机后，复制下面的文本到本地
 
-![afec8c01385a987258927d1f287fbf6a.png](:/a15cfe1e8e8342d5a797550c0b0fc2de.png)
+![afec8c01385a987258927d1f287fbf6a.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources//a15cfe1e8e8342d5a797550c0b0fc2de.png)
 
 
 
@@ -65,11 +65,11 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 ## 1. 下载文件
 到我的[Github项目主页](https://github.com/PaperJetJia/Aboboo_To_Anki)单击该链接
 
-![6aab5dc679c290126e2b8b196a1cc0e3.png](:/716c1f8f63254bbc9b613781fa2cb746)
+![6aab5dc679c290126e2b8b196a1cc0e3.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/716c1f8f63254bbc9b613781fa2cb746.png)
 ***
 接着下载文件到本地，建议在桌面新建一个"Aboboo to Anki" 文件夹作为中转文件夹，请注意不要直接在桌面运行。
 ***
-![80e2e930226767e4fde39f201795e9cf.png](:/cfb66465e9e140539edbb8d12ae27144)
+![80e2e930226767e4fde39f201795e9cf.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/cfb66465e9e140539edbb8d12ae27144.png)
 
 * * *
 
@@ -77,7 +77,7 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 
 * * *
 
-![7724e5cd637e4312c40232f572962ccf.png](:/89cc703d2511458a9b70a650494dd335)
+![7724e5cd637e4312c40232f572962ccf.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources//89cc703d2511458a9b70a650494dd335.png)
 
 
 * * *
@@ -88,7 +88,7 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 请务必确保句库中句子有字幕，否侧影响后续学习。
 
 
-![87efacfe325b37696bbca723322442d6.png](:/7f09bfd51910432db9a83eeaf22c342c)
+![87efacfe325b37696bbca723322442d6.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/7f09bfd51910432db9a83eeaf22c342c.png)
 
 
 * * *
@@ -96,7 +96,7 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 
 * * *
 
-![7239af8f8abdae15f45ea8a0707d4f58.png](:/cb402cf1d42349aaa550f6055054c098)
+![7239af8f8abdae15f45ea8a0707d4f58.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/cb402cf1d42349aaa550f6055054c098.png)
 
 
 * * *
@@ -105,7 +105,7 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 * * *
 
 
-![8aec32f7e516f6f582556b79ebe230ec.png](:/54dbe0f1825e4f74ac99123e7a56aa44)
+![8aec32f7e516f6f582556b79ebe230ec.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/54dbe0f1825e4f74ac99123e7a56aa44.png)
 
 
 * * *
@@ -113,13 +113,13 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 
 * * *
 
-![e0d6efc75069986e7af556fd48ff0b21.png](:/ac397b321f864a29b9d6ae10b4c355d1)
+![e0d6efc75069986e7af556fd48ff0b21.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/ac397b321f864a29b9d6ae10b4c355d1.png)
 
 * * *
 将文本字幕处理成这样的格式才可以导入anki匹配相应的字段和音频。
 
 如果弹出这个窗口
-![9b44270e2d4db3a55d4feba96728a828.png](:/829dd2258f0a4f91a453cccc5be3ea52)
+![9b44270e2d4db3a55d4feba96728a828.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/829dd2258f0a4f91a453cccc5be3ea52.png)
 ![](http://ww2.sinaimg.cn/bmiddle/9150e4e5gy1fznw4d082wj20jg0elweq.jpg)
 
 注意和exe在一个目录下的必须是文件夹，不能是上图所示的单个文件，其他情况请[提交issue](https://github.com/PaperJetJia/Aboboo_To_Anki/issues)
@@ -134,21 +134,21 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 
 * * *
 
-![ccc758139bfb28c8f580b7f18b15a1bc.png](:/9f81ce6a49dc4ec19e923fe602fee8cb)
+![ccc758139bfb28c8f580b7f18b15a1bc.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/9f81ce6a49dc4ec19e923fe602fee8cb.png)
 * * *
 选中txt文件点击打开(open)，按如图所示设置
 * * *
 
-![fde23132a25f57725fff5b64953b0e6b.png](:/6ef8f84c03d447ad96eec5b6b22fef0c)
+![fde23132a25f57725fff5b64953b0e6b.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/6ef8f84c03d447ad96eec5b6b22fef0c.png)
 * * *
 最后点击导入即可,然后手动删除掉txt文本就全部搞定了。
 * * *
 
-![c44fc7479c280b91baaa3621a186d32b.png](:/83991231e1ec49be838b5b3d02139402)
+![c44fc7479c280b91baaa3621a186d32b.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/83991231e1ec49be838b5b3d02139402.png)
 
 
 
-![539f347fdd505da6c61342988cdc5b66.png](:/c045c0bcbae24efaad8705c6f92019ae)
+![539f347fdd505da6c61342988cdc5b66.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/c045c0bcbae24efaad8705c6f92019ae.png)
 
 # 最后多说几句
 ![](http://ww3.sinaimg.cn/bmiddle/9150e4e5ly1fi5nfoncr0j20gd0g2t9g.jpg)
