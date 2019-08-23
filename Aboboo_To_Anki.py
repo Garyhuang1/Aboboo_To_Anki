@@ -1,5 +1,3 @@
-# author: Paperjet
-
 import re  # 导入re正则表达式库
 import os  # operating system
 import random  # 生成随机数命名文件
@@ -22,20 +20,24 @@ subFolderPath = [f.path for f in os.scandir(current_dir) if f.is_dir()]
 # convert subFolderPath to string
 outputFolderPath = " ".join(subFolderPath)  # all files contained in this folder which is output from Aboboo
 
-allFileOutput = os.listdir(outputFolderPath)
 
 
 def main():
     # 从0-9中选择8个随机且独立的元素；返回的是字符串
     random_number_10 = ''.join(str(x) for x in random.sample(range(0, 9), 8))
 
-    # split the name and extension and keep name
-    last = allFileOutput[-1]
-    name_of_last = os.path.splitext(last[0])
-    maxNumber = int(name_of_last[0])
+    allFileOutput = os.listdir(outputFolderPath)
+
+    # algorithm to find the
+
+    max = 0
+
+    for name in allFileOutput:
+        num = int(os.path.splitext(name)[0])
+        max = num if num > max else max
 
     # new way to loop through all the mp3 and lrc files
-    for i in range(1,maxNumber + 1):
+    for i in range(1,max + 1):
         old_lrc_path = outputFolderPath + "\\" + str(i) + r".lrc"
         old_mp3_path = outputFolderPath + "\\" + str(i) + r".mp3"
 
@@ -62,44 +64,20 @@ def main():
                 # append the text into final txt file
                 open(Input_Anki_txt_path, "a+", encoding="utf-8").write(final_subtitle)
 
-            # rename mp3 name
-            new_old_mp3_name = outputFolderPath + "\\" + new_random_number_10 + ".mp3"
+            # rename mp3 name：
+            # os.rename funciton is just like cut
+            new_old_mp3_name = anki_media_path + "\\" + new_random_number_10 + ".mp3"
             os.rename(old_mp3_path, new_old_mp3_name)
 
-            # delete ouputFolder
+            # delete lrc
             os.remove(old_lrc_path)
 
-        else:
-            continue
-
-def moveFiles():
-    # list all the folders within current working dicectory
-    subfolders = [f.path for f in os.scandir(current_dir) if f.is_dir()]
-
-    # assign the first folder's path to folder_path
-    folder_path = subfolders[0]
-
-    # list all the files
-    files = os.listdir(folder_path)
-
-    for Files in files:
-        # 对文件切片返回元组，用[]分别提取元素, 0 is the name and 1 is the extension
-
-        # get the suffix/extension
-        suffix_of_files = os.path.splitext(Files)[1]
-
-        if suffix_of_files == '.mp3':  # suffix是用户传入的参数，即要转移的文件扩展名，
-
-            # 重新拼凑符合要求文件的路径作为待移动路径
-            old_path_remake = folder_path + '\\' + Files
-            shutil.move(old_path_remake, anki_media_path)
+            # os.remove(old_mp3_path)
 
         else:
             continue
-    os.removedirs(outputFolderPath)
-
 
 if __name__ == '__main__':
     main()
-    moveFiles()
+    shutil.rmtree(outputFolderPath, ignore_errors=True) # 如果把这个放在main中直接第一次就删除文件夹，要放在main结束后才对
     tkinter.messagebox.showinfo("Aboboo To Anki", 'Successfully ! Please continue to input the "Input_Anki.txt" to Anki. Have a good day !')
