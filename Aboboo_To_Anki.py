@@ -1,3 +1,5 @@
+# author: Paperjet
+
 import re  # 导入re正则表达式库
 import os  # operating system
 import random  # 生成随机数命名文件
