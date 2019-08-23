@@ -1,7 +1,9 @@
 # Aboboo_To_Anki
-This python script is to help connect Aboboo and Anki efficiently. I hope you guys will like it. If you find any question or have any good proposal, please tell me. Thank you! 
+This python script is to help connect Aboboo and Anki efficiently. I hope you guys will like it. If you find any question or have any good proposal, please tell me. Thank you!    
+
+这是我进入Github第一个作品，希望大家喜欢，希望我们能相互学习，共同进步！下面进入正题：  
+
 ![](http://ww2.sinaimg.cn/bmiddle/9150e4e5ly1ftyzj28m65j205c05cq2t.jpg)
-这是我进入Github第一个作品，希望大家喜欢，希望我们能相互学习，共同进步！下面进入正题：
 
 <!-- TOC -->
 # 目录
