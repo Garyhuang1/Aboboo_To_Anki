@@ -57,9 +57,13 @@ def main():
 
                 # 正则删去时间戳
                 Delete_timeline = re.sub("^(.*?)]", "", convert_subtitle_to_string)
+                
+                # 删去空行
+                Delete_empty_line = re.sub("\n","",Delete_timeline)
+                print(Delete_empty_line)
 
                 # 换行替换制表符，并添加sound标签以随机数为索引。
-                final_subtitle = "[sound:" + new_random_number_10 + ".mp3]" + "\t" + Delete_timeline + "\n"
+                final_subtitle = "[sound:" + new_random_number_10 + ".mp3]" + "\t" + Delete_empty_line + "\n"
 
                 # append the text into final txt file
                 open(Input_Anki_txt_path, "a+", encoding="utf-8").write(final_subtitle)
