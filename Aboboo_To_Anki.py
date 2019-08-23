@@ -28,7 +28,7 @@ def main():
 
     allFileOutput = os.listdir(outputFolderPath)
 
-    # algorithm to find the
+    # algorithm to find the file with biggest number and keep that number as loop's index
 
     max = 0
 
