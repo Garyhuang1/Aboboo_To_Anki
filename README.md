@@ -119,7 +119,11 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 将文本字幕处理成这样的格式才可以导入anki匹配相应的字段和音频。
 
 如果弹出这个窗口
+
+
 ![9b44270e2d4db3a55d4feba96728a828.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/829dd2258f0a4f91a453cccc5be3ea52.png)
+
+
 ![](http://ww2.sinaimg.cn/bmiddle/9150e4e5gy1fznw4d082wj20jg0elweq.jpg)
 
 注意和exe在一个目录下的必须是文件夹，不能是上图所示的单个文件，其他情况请[提交issue](https://github.com/PaperJetJia/Aboboo_To_Anki/issues)
