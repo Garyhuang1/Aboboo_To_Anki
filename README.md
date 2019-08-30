@@ -28,27 +28,8 @@ This python script is to help connect Aboboo and Anki efficiently. I hope you gu
 教程结束，请移步。
 
 * * *
-
-![](http://ww4.sinaimg.cn/bmiddle/9150e4e5gw1fa84r676h8j205i048wek.jpg)
-
-
-
 * * *
-[首先安装Python](https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624)，然后复制Github上源代码到本地新建一个后缀为.py的python文件就可以按下面步骤继续走。 
-
-
-
-![13565d529eda0934d73e725b82796404.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources/2369cf7c9f86462b99a3f45ccf433350.png)
-
-
-单击后，像下面这样复制全部代码文本到本地
-
-![afec8c01385a987258927d1f287fbf6a.png](https://github.com/PaperJetJia/Aboboo_To_Anki/blob/master/_resources//a15cfe1e8e8342d5a797550c0b0fc2de.png)
-
-
-
-* * *
-因为目前本人没有Mac操作系统的电脑所以暂时无法演示,非常抱歉；
+因为目前本人没有Mac操作系统的电脑所以暂时不支持,Mac系统，非常抱歉；
 ![](http://ww2.sinaimg.cn/bmiddle/9150e4e5gy1frrhkv6651j20hs0g2t9a.jpg)
 
 * * *
